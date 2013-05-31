@@ -5,6 +5,24 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+#bg_top, #bg_bottom, #bg_left, #bg_right {
+	background: #000000;
+	position: fixed;
+	}
+	#bg_left, #bg_right {
+		top: 0; bottom: 0;
+		width: 30px;
+		}
+		#bg_left { left: 0; }
+		#bg_right { right: 0; }
+		
+	#bg_top, #bg_bottom {
+		left: 0; right: 0;
+		height: 30px;
+		}
+		#bg_top { top: 0; }
+		#bg_bottom { bottom: 0; }
+
 article {
 	color: #d4d42e;
 	width: 600px;
@@ -54,7 +72,7 @@ a:hover {
 
 .page-wrapper {
 	padding: 100px 150px 0;
-	width: 550px;
+	
 }
 
 .about a {
@@ -63,24 +81,27 @@ a:hover {
 
 #projects {
 	overflow: hidden;
-	width: 1240px;
-
 }
+
 #projects a {
 	border-bottom: 0px solid rgba(0, 0, 0, 0.5);
 }
+
 #projects ul {
 	padding: 0;
   }
+
 #projects li {
 	opacity: 1;
 	float: left;
 	list-style: none;
 	width: 280px;
+	height: 280px;
 	margin-right: 40px;
 	margin-bottom: 100px;
 	line-height: 0;
 }
+
 #projects li a:hover {
 	border-bottom: none;
 	opacity: .5;
@@ -104,6 +125,8 @@ a:hover {
 .footer {
 	padding: 0;
 	font-size: 12px;
+	margin-bottom: 100px;
+	margin-top: 100px;
 }
 
 .footer a {
@@ -113,7 +136,7 @@ a:hover {
 @media (max-width: 694px) {
 
 	.page-wrapper {
-		padding: 20px 20px 0;
+		padding: 40px 100px 0;
 		position: relative; 
 		width: auto;
 	}

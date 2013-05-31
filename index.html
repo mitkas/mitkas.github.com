@@ -12,20 +12,25 @@ layout: default
 			<p>I’m a interective and UX designer located in Kyiv, Ukraine. I working as lead designer at <a href="http://aimbulance.com" target="_blank">Aimbulance</a>.</p>
 		</h1>
 			<p class="small">I’m ready to take on board new projects, so if you need any help or have interesting projects please <a href="mailto:&#100;&#x69;&#109;&#x69;&#x74;&#114;&#105;&#121;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">get in touch</a>. Some of my work can be seen at <a href="http://behance.net/mitka" target="_blank">behance</a> and <a href="http://dribbble.com/mitkazavr" target="_blank">dribbble</a>.</p>
-			<p class="small">Learn more about me by visiting any of these links: Facebook, Google+, Twitter, Cargocollective</p>
+			<p class="small">Learn more about me by visiting any of these links: <a href="https://www.facebook.com/mitkazavr" target="_blank">Facebook</a>, <a href="https://plus.google.com/u/0/118216164257316781264" target="_blank">Google+</a> and <a href="https://twitter.com/mitkazavr" target="_blank">Twitter</a>.</p>
 	
 	</article>
 	
 	<div id="projects">
 		<h2 class="about">Recent works</h2>
+		<div id="container">
 		<ul>
 		{% for post in site.posts %}
-			<li>
+			<li class="item">
 			<a href="{{ post.link }}" target="_blank"><img src="{{ post.image }}" width="280" height="280" alt="{{ post.title }}"></a>
 			<p class="behance-title"><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></p>
 			<p class="behance-text">{{ post.text }}</p>
 			</li>
 		{% endfor %}
+		</ul>
 	</div>
-
+<div id="bg_left"></div>
+<div id="bg_right"></div>
+<div id="bg_top"></div>
+<div id="bg_bottom"></div> 
 </section>
