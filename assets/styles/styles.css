@@ -103,7 +103,6 @@ a:hover {
 }
 
 #projects li a:hover {
-	border-bottom: none;
 	opacity: .5;
 }
 
