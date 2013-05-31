@@ -8,8 +8,8 @@ user.name: bob
 
   <article>
 
-Hello {{ 'tobi' | upcase }}
 
+{% assign user.name = 'bob' %}
 {% if user.name == 'tobi' %}
   Hello tobi
 {% elsif user.name == 'bob' %}
