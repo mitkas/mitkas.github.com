@@ -9,9 +9,9 @@ layout: default
 		<h1 class="about">
 			<p class="small">Hi, my name is </p>
 			<p class="big">Dmitry Silantiev</p>
-			<p>I’m a interective and UX designer located in Kyiv, Ukraine. I working as lead designer at <a href="http://aimbulance.com">Aimbulance</a>.</p>
+			<p>I’m a interective and UX designer located in Kyiv, Ukraine. I working as lead designer at <a href="http://aimbulance.com" target="_blank">Aimbulance</a>.</p>
 		</h1>
-			<p class="small">{{ page.description2 }}</p>
+			<p class="small">I’m ready to take on board new projects, so if you need any help or have interesting projects please <a href="mailto:&#100;&#x69;&#109;&#x69;&#x74;&#114;&#105;&#121;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">get in touch</a>. Some of my work can be seen at <a href="http://behance.net/mitka" target="_blank">behance</a> and <a href="http://dribbble.com/mitkazavr" target="_blank">dribbble</a>.</p>
 			<p class="small">Learn more about me by visiting any of these links: Facebook, Google+, Twitter, Cargocollective</p>
 	
 	</article>
@@ -19,27 +19,13 @@ layout: default
 	<div id="projects">
 		<h2 class="about">Recent works</h2>
 		<ul>
-		<li>
-		<a href="http://www.behance.net/gallery/Advice-Wallet/8761763"><img src="./thumb/Untitled-2_11.png" width="280" height="280" alt="Advice Wallet"></a>
-		<p class="behance-title"><a href="http://www.behance.net/gallery/Advice-Wallet/8761763">Advice Wallet</a></p>
-		<p class="behance-text">Social networking platform for referral marketing</p>
-		</li>
-		<li>
-		<a href="http://www.behance.net/gallery/Advice-Wallet/8761763"><img src="./thumb/Untitled-2_11.png" width="280" height="280" alt="Advice Wallet"></a>
-		<p class="behance-title"><a href="http://www.behance.net/gallery/Advice-Wallet/8761763">Advice Wallet</a></p>
-		<p class="behance-text">Social networking platform for referral marketing</p>
-		</li>
-		<li>
-		<a href="http://www.behance.net/gallery/Advice-Wallet/8761763"><img src="./thumb/Untitled-2_11.png" width="280" height="280" alt="Advice Wallet"></a>
-		<p class="behance-title"><a href="http://www.behance.net/gallery/Advice-Wallet/8761763">Advice Wallet</a></p>
-		<p class="behance-text">Social networking platform for referral marketing</p>
-		</li>
-		<li>
-		<a href="http://www.behance.net/gallery/Advice-Wallet/8761763"><img src="./thumb/Untitled-2_11.png" width="280" height="280" alt="Advice Wallet"></a>
-		<p class="behance-title"><a href="http://www.behance.net/gallery/Advice-Wallet/8761763">Advice Wallet</a></p>
-		<p class="behance-text">Social networking platform for referral marketing</p>
-		</li>
-		</ul>
+		{% for post in site.posts %}
+			<li>
+			<a href="{{ post.link }}" target="_blank"><img src="{{ post.image }}" width="280" height="280" alt="{{ post.title }}"></a>
+			<p class="behance-title"><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></p>
+			<p class="behance-text">{{ post.text }}</p>
+			</li>
+		{% endfor %}
 	</div>
 
 </section>
