@@ -21,13 +21,18 @@ layout: default
 		<div id="container">
 		<ul>
 		{% for post in site.posts %}
-			<li class="item">
+		<div class="project_thumb">
+			<li>
+		    <a class="hoveri" href="{{ post.link }}" target="_blank">
 			<a href="{{ post.link }}" target="_blank"><img src="{{ post.image }}" width="280" height="280" alt="{{ post.title }}"></a>
 			<p class="behance-title"><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></p>
 			<p class="behance-text">{{ post.text }}</p>
+			</a>
 			</li>
+		</div>
 		{% endfor %}
 		</ul>
+	</div>
 	</div>
 <div id="bg_left"></div>
 <div id="bg_right"></div>
