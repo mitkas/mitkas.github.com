@@ -27,6 +27,7 @@ article {
 	width: 600px;
 	color: #d4d42e;
 	color: rgba(0, 0, 0, 0.5);
+	padding-bottom: 60px;
 
 }
 
@@ -50,7 +51,7 @@ h1.about {
 
 h2.about {
 	margin-bottom: 0;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 	font-weight: bold;
 	font-size: 18px;
 }
@@ -62,7 +63,7 @@ a {
 }
 
 a:hover {
-	border-bottom: 1px solid rgba(231, 75, 59, 1);
+	border-bottom: 1px solid rgba(98, 189, 118, 1);
 	color: rgba(0, 0, 0, 0.5);
 	-webkit-transition: all 100ms ease-in;
 	-moz-transition: all 100ms ease-in;
@@ -117,6 +118,10 @@ a:hover {
 
 .project_thumb:hover {
     border: 5px solid #62bd76;
+    -webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 250ms ease-in;
 }
 
 /* BEHANCE */

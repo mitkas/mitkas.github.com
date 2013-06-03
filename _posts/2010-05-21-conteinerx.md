@@ -1,6 +1,6 @@
 ---
 layout: default
-image: thumb/Untitled-2_69.png
+image: projects/00-thumb/conteinerx.png
 title: ConteinerX
 text:  Icons for categories of site ConteinerX.
 link: http://www.behance.net/gallery/ConteinerX-icons/519463
