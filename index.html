@@ -15,13 +15,17 @@ layout: default
 			<p class="small">Learn more about me by visiting any of these links: <a href="https://www.facebook.com/mitkazavr" target="_blank">Facebook</a>, <a href="https://plus.google.com/u/0/118216164257316781264" target="_blank">Google+</a> and <a href="https://twitter.com/mitkazavr" target="_blank">Twitter</a>.</p>
 	
 	</article>
+
+	<div class="behance_link"><a href="http://behance.net/mitka" target="_blank">portfolio on behance</a></div>
 	
 	<div id="projects">
 		<h2 class="about">Recent works</h2>
 		<div id="container">
 		<ul>
 		{% for post in site.posts %}
-		<div class="project_thumb">
+
+		{% if post.images_folder == nil %}
+   		<div class="project_thumb">
 			<li>
 		    <a class="hoveri" href="{{ post.link }}" target="_blank">
 			<a href="{{ post.link }}" target="_blank"><img src="{{ post.image }}" width="280" height="280" alt="{{ post.title }}"></a>
@@ -30,6 +34,19 @@ layout: default
 			</a>
 			</li>
 		</div>
+		{% else %}
+   		<div class="project_thumb">
+			<li>
+		    <a class="hoveri" href="{{ post.url }}">
+			<a href="{{ post.url }}"><img src="{{ post.image }}" width="280" height="280" alt="{{ post.title }}"></a>
+			<p class="behance-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+			<p class="behance-text">{{ post.text }}</p>
+			</a>
+			</li>
+		</div>
+		{% endif %}
+
+
 		{% endfor %}
 		</ul>
 	</div>

@@ -1,0 +1,33 @@
+
+{% include header.html %}
+
+<style type="text/css">
+body { background-color: #{{ page.background }}}
+.footer { text-align: center; float: none;}
+</style>
+
+<div class="previous_next">
+      {% if page.previous and page.previous.images_folder != nil %}
+
+          <a href="{{ page.previous.url }}" class="previous_post" title="Previous project: {{ page.previous.title }}"><span aria-hidden="true" class="icon-arrow_right"></span></a>
+
+      {% endif %}
+                <a href="{{ site.url }}" class="all_post" title="All project"><span aria-hidden="true" class="icon-back"></span></a>
+      {% if page.next and page.next.images_folder != nil %} 
+
+          <a href="{{ page.next.url }}" class="next_post" title="Next project: {{ page.next.title }}"><span aria-hidden="true" class="icon-arrow_left"></span></a>
+
+      {% endif %}
+    </div>
+
+<div class="project_view">
+	<h1 class="project_title">{{ page.title }}</h1>
+	<h3 class="project_date">{{ page.date | date_to_long_string }}</h3>
+
+	{{ content }}
+
+</div>
+
+
+
+{% include footer.html %}

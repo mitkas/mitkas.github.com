@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 image: projects/00-thumb/evropacenter.png
 title: Evropa Center
 text:  Design of the web-site for Ekaterinburg's commercial and business centre «Evropa».
