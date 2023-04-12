@@ -105,3 +105,26 @@ main {
     height: auto;
   }
   
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* position: absolute;
+  width: 1280px;
+  height: 264px;
+  left: 80px;
+  top: 170px; */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 100%;
+  /* or 88px */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}

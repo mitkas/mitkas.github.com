@@ -1,10 +1,12 @@
 ---
-title: "Project Title Archive"
-description: "A description of Project 1"
-date: 2023-04-12T00:00:00Z
-image: "/images/project-image.jpg"
+title: "Wambrella"
+date: 2016-01-01
+type: "Web, App"
+image: "preview.jpg"
+featured: true
 ---
 
 Project description and details go here. You can use standard Markdown syntax to format your content, add images, and create links.
 
 ![Project image](/images/project-image.jpg)
+

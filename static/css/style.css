@@ -9,7 +9,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  background-color: #F7F7F7;
+  background-color: #F5F5F5;
 }
 
 a {
@@ -22,14 +22,14 @@ a:hover {
 }
 
 .container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 80px;
 }
 
 /* Header */
 header {
-  background-color: #FFF;
+  /* background-color: #FFF; */
   padding: 20px 0;
 }
 
@@ -37,6 +37,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 
 nav ul {
@@ -44,10 +45,27 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: center;
+
 }
 
 nav ul li {
   margin-left: 20px;
+  margin-right: 20px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.selected {
+  color: rgba(128, 128, 128, 1);
 }
 
 /* Main content */
@@ -105,3 +123,170 @@ main {
     height: auto;
   }
   
+  .secondinfo {
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+  
+  .secondinfo > div {
+    flex: 1;
+  }
+  
+  .secondinfo > div:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+
+  /* position: absolute;
+  width: 1280px;
+  height: 264px;
+  left: 80px;
+  top: 170px; */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 100%;
+  /* or 88px */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+h3 {
+  /* position: absolute;
+  width: 400px;
+  height: 24px;
+  left: 80px;
+  top: 504px; */
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.description {
+  /* position: absolute; */
+  width: 510px;
+  /* height: 96px;
+  left: 80px;
+  top: 328px; */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  /* or 24px */
+  
+  letter-spacing: -0.02em;
+  
+  color: #000000;
+  padding-bottom: 100px;
+}
+
+.logo {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: -0.04em;
+
+color: #000000;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+
+/* Grid Work */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* box-sizing: border-box; */
+  grid-gap: 40px;
+  /* padding: 20px; */
+}
+
+.project-card-featured:nth-child(-n+2) {
+  grid-column: span 5;
+}
+
+.project-card {
+  
+  overflow: hidden;
+  /* background-color: #fff; */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+.project-title {
+
+
+  margin: 16px 0 8px 16px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+  
+  letter-spacing: -0.04em;
+  
+  color: #000000;
+
+}
+
+.project-details {
+  /* font-size: 14px; */
+  margin: 0 16px 16px;
+
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: -0.04em;
+color: rgba(0, 0, 0, 0.30);
+/* color: #CCCCCC; */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.project-details a:hover {
+  text-decoration: none;
+}

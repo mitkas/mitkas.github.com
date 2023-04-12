@@ -1,6 +1,7 @@
 ---
 title: "iBox"
 date: 2013-03-07
+description: ""
 image: "/images/project-image.jpg"
 ---
 
@@ -14,24 +15,24 @@ images_folder: /projects/ibox/
 background: "f3f3f3"
 --- -->
 
-![Image description](./images/1.png)
+![Image description](./1.png)
 
 New interface terminals IBox.
 
-![Image description](./images/2.png)
+![Image description](./2.png)
 
 Terminal iBox can be funded mobile phones, recharge
 purses WebMoney, repay loans and make bank transactions.
 
-![Image description](./images/3.png)
-![Image description](./images/4.png)
-![Image description](./images/5.png)
-![Image description](./images/6.png)
+![Image description](./3.png)
+![Image description](./4.png)
+![Image description](./5.png)
+![Image description](./6.png)
 
 Icon sets
 
-![Image description](./images/7.png)
+![Image description](./7.png)
 
 Keyboard
 
-![Image description](./images/8.png)
+![Image description](./8.png)
