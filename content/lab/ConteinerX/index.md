@@ -7,5 +7,5 @@ link: http://www.behance.net/gallery/ConteinerX-icons/519463
 
 Icons for categories of site ConteinerX.
 
-![Project image](/images/project-image.jpg)
+![Project image](./images/project-image.jpg)
 

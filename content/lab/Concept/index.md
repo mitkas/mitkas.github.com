@@ -8,5 +8,5 @@ link: http://www.behance.net/gallery/ConteinerX-icons/519463
 Concept.
 
 
-![Project image](/images/webstart.jpg)
+![Project image](./images/webstart.jpg)
 
