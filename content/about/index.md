@@ -8,7 +8,7 @@ As an interaction designer originally from Ukraine, I specialize in creating use
 <!-- ![Image description](/img/photo_dmytro.jpg) -->
 <!-- ![Dmytro's Photo](./images/photo_dmytro.jpg){: .profile-photo} -->
 
-{{< figure src="./images/photo_dmytro.jpg" alt="Dmytro's Photo" class="profile-photo" >}}
+{{< figure src="photo_dmytro.jpg" alt="Dmytro's Photo" class="profile-photo" >}}
 
 
 
