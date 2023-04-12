@@ -1,8 +1,0 @@
-name: "Dmitry Silantiev Portfolio"
-description: "Dmitry Silantiev - interective and UX designer located in Kyiv, Ukraine"
-url: "http://dmitrysilantiev.com"
-
-safe: true
-lsi: false
-pygments: true
-permalink: /:year/:title/

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sylantiev Portfolio</title>
+    <link>https://sylantiev.com/</link>
+    <description>Recent content on Sylantiev Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sylantiev.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://sylantiev.com/about/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sylantiev.com/about/</guid>
+      <description>As an interaction designer originally from Ukraine, I specialize in creating user-centered designs with clean and sharp interfaces for easy navigation. With over 20 years of experience in the field, I have a wealth of knowledge and expertise to bring to any project. My goal is to combine stunning graphics with exceptional user experience for successful designs and applications. I am passionate about creating intuitive digital experiences that improve people&amp;rsquo;s lives.</description>
+    </item>
+    
+    <item>
+      <title>ConteinerX</title>
+      <link>https://sylantiev.com/lab/conteinerx/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sylantiev.com/lab/conteinerx/</guid>
+      <description>Icons for categories of site ConteinerX.</description>
+    </item>
+    
+    <item>
+      <title>Project Title</title>
+      <link>https://sylantiev.com/work/project1/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sylantiev.com/work/project1/</guid>
+      <description>Project description and details go here. You can use standard Markdown syntax to format your content, add images, and create links.</description>
+    </item>
+    
+    <item>
+      <title>Project Title Archive</title>
+      <link>https://sylantiev.com/archive/project1/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sylantiev.com/archive/project1/</guid>
+      <description>Project description and details go here. You can use standard Markdown syntax to format your content, add images, and create links.</description>
+    </item>
+    
+  </channel>
+</rss>

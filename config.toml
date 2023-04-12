@@ -1,0 +1,12 @@
+baseURL = "https://sylantiev.com/"
+languageCode = "en-us"
+title = "Sylantiev Portfolio"
+
+[params]
+  font = "Inter"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+# theme = 'ananke'
