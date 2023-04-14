@@ -4,14 +4,14 @@
   <div class="description">{{ .Description }}</div>
   <div class="grid-container">
     {{ range .Pages }}
-    <a class="project-card" href="{{ .Permalink }}">
-    <div class="project-card a">
-      <img class="project-image" src="{{ .RelPermalink }}{{ with .Params.imageFeatured }}{{ . }}{{ else }}{{ .Params.image }}{{ end }}" alt="{{ .Title }}">
-      <h4 class="project-title">{{ .Title }}</h4>
-      <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+    <div class="grid-item">
+      <a class="project-card" href="{{ .Permalink }}">
+        <img class="project-image" src="{{ .RelPermalink }}{{ with .Params.image }}{{ . }}{{ else }}{{ .Params.imageFeatured }}{{ end }}" alt="{{ .Title }}">
+        <h4 class="project-title">{{ .Title }}</h4>
+        <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+      </a>
     </div>
-    </a>
     {{ end }}
-  </div>
+  </div>  
 </div>
 {{ end }}

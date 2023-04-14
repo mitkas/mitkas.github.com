@@ -1,10 +1,16 @@
 @import url("https://rsms.me/inter/inter.css");
 
+:root {
+  --border-radius-medium: 20px;
+  --border-radius-large: 20px;
+  --global-padding: 80px;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: #000000;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
@@ -17,11 +23,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 80px;
 }
 
 header {
@@ -62,46 +63,6 @@ main {
   padding: 40px 0;
 }
 
-.home-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 100px 0;
-}
-
-.home-intro h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.home-intro p {
-  font-size: 24px;
-  text-align: center;
-  max-width: 600px;
-}
-
-.home-cta {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.home-cta a {
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 12px 24px;
-  border: 2px solid #333;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-}
-
-.home-cta a:hover {
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-}
-
 .profile-photo img {
   border-radius: 50%;
   max-width: 510px;
@@ -116,13 +77,13 @@ main {
   padding-bottom: 100px;
 }
 
-.secondinfo > div {
+.secondinfo>div {
   flex: 1;
 }
 
-.secondinfo > div:not(:last-child) {
+/* .secondinfo>div:not(:last-child) {
   margin-right: 1rem;
-}
+} */
 
 h1,
 h3,
@@ -136,9 +97,9 @@ h3,
 
 h1 {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* max-width: 1200px; */
   font-weight: 700;
   font-size: 88px;
   line-height: 100%;
@@ -177,26 +138,98 @@ ul {
   padding-inline-start: 0;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 40px;
+  grid-template-columns: repeat(5, calc((100vw - 40px * 6 - 80px) / 5));
+  box-sizing: border-box;
+
+  grid-template-rows: masonry;
 }
 
-.project-card-featured:nth-child(-n + 2) {
+.grid-item {
+  /* background-color: #ddd; */
+  /* padding: 20px; */
+
+  /* box-sizing: border-box;
+  overflow: hidden; */
+
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-large);
+}
+
+/* Screen widths between 1000px and 800px */
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 88px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+/* Screen widths between 800px and 380px */
+@media (max-width: 960px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 17px;
+    padding-bottom: 80px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 20px;
+    /* padding: 10px; */
+  }
+}
+
+/* Screen widths below 380px */
+@media (max-width: 380px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* .project-card-featured:nth-child(-n + 2) {
   grid-column: span 5;
-}
+} */
 
-.project-card {
+/* .project-card {
   overflow: hidden;
-}
+} */
 
-.project-image {
+/* .project-image {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 30px;
-}
+  border-radius: var(--border-radius-large);
+} */
 
 .project-title {
   margin: 16px 0 8px 16px;
@@ -219,18 +252,6 @@ ul {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 0 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    padding: 0 20px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
+.footer {
+  padding-bottom: 100px;
 }

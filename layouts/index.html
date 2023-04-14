@@ -1,6 +1,5 @@
 {{ define "main" }}
 <div class="container">
-
   <h1>{{ .Title }}</h1>
 
   <div class="secondinfo">
@@ -10,33 +9,52 @@
         {{ range .Params.experience }}
         <li>{{ .title }}</li>
         {{ end }}
-        <li>&rarr; <a href="https://www.linkedin.com/in/silantiev/" target="_blank" rel="noopener noreferrer">More</a></li>
+        <br />
+        <li>
+          &rarr;
+          <a
+            href="https://www.linkedin.com/in/silantiev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >More</a
+          >
+        </li>
       </ul>
     </div>
     <div>
       <h3>Contacts</h3>
       <ul>
         {{ range .Params.contacts }}
-        <li>&rarr; <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></li>
+        <li>
+          &rarr;
+          <a href="{{ .link }}" target="_blank" rel="noopener noreferrer"
+            >{{ .name }}</a
+          >
+        </li>
         {{ end }}
       </ul>
     </div>
   </div>
 
   <div class="grid-container">
-    {{ $featuredProjects := where site.Pages "Params.featured" true }}
-    {{ range $featuredProjects }}
-    <a class="project-card-featured" href="{{ .Permalink }}">
+    {{ $featuredProjects := where site.Pages "Params.featured" true }} {{ range
+    $featuredProjects }}
 
-      <div class="project-card-featured a">
-        <img class="project-image" src="{{ .RelPermalink }}{{ with .Params.imageFeatured }}{{ . }}{{ else }}{{ .Params.image }}{{ end }}" alt="{{ .Title }}">
+    <div class="grid-item">
+      <a class="project-card-featured" href="{{ .Permalink }}">
+        <img
+          class="project-image"
+          src="{{ .RelPermalink }}{{ with .Params.image }}{{ . }}{{ else }}{{ .Params.imageFeatured }}{{ end }}"
+          alt="{{ .Title }}"
+        />
         <h4 class="project-title">{{ .Title }}</h4>
-        <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
-      </div>
+        <div class="project-details">
+          {{ .Params.type }}, {{ .Date.Format "2006" }}
+        </div>
+      </a>
+    </div>
 
-    </a>
     {{ end }}
   </div>
-
 </div>
 {{ end }}

@@ -2,7 +2,7 @@
 title: "Allset"
 date: 2023-02-01
 type: "Web, App, Table"
-image: "preview_featured.jpg"
+image: "preview.jpg"
 imageFeatured: "preview_featured.jpg"
 featured: true
 ---

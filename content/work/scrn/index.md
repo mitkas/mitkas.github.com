@@ -2,7 +2,7 @@
 title: "SCRN"
 date: 2016-05-13
 type: "Web, App"
-image: "/images/project-image.jpg"
+image: "preview.jpg"
 imageFeatured: "preview_featured.jpg"
 featured: true
 ---
