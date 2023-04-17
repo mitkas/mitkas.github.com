@@ -1,14 +1,17 @@
 {{ define "main" }}
 <div class="container">
-    <h1>{{ .Title }}</h1>
-    <div class="description">{{ .Description }}</div>
-    <ul>
-        {{ range .Pages }}
-      
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-    </ul>
+  <h1>{{ .Title }}</h1>
+  <div class="description">{{ .Description }}</div>
+  <div class="grid-container">
+    {{ range .Pages }}
+    <div class="grid-item">
+      <a class="project-card" href="{{ .Permalink }}">
+        <img class="project-image" src="{{ .RelPermalink }}{{ with .Params.image }}{{ . }}{{ else }}{{ .Params.imageFeatured }}{{ end }}" alt="{{ .Title }}">
+        <h4 class="project-title">{{ .Title }}</h4>
+        <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+      </a>
+    </div>
+    {{ end }}
+  </div>  
 </div>
 {{ end }}

@@ -41,10 +41,10 @@
     $featuredProjects }}
 
     <div class="grid-item">
-      <a class="project-card-featured" href="{{ .Permalink }}">
+      <a class="project-card featured" href="{{ .Permalink }}">
         <img
           class="project-image"
-          src="{{ .RelPermalink }}{{ with .Params.image }}{{ . }}{{ else }}{{ .Params.imageFeatured }}{{ end }}"
+          src="{{ .RelPermalink }}{{ with .Params.preview }}{{ . }}{{ else }}{{ .Params.previewFeatured }}{{ end }}"
           alt="{{ .Title }}"
         />
         <h4 class="project-title">{{ .Title }}</h4>

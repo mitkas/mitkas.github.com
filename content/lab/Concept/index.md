@@ -1,7 +1,8 @@
 ---
 title: "Concept"
 date: 2023-04-12T00:00:00Z
-# image: "/images/webstart.jpg"
+type: "Web, Icon"
+image: "/images/webstart.jpg"
 link: http://www.behance.net/gallery/ConteinerX-icons/519463
 ---
 
