@@ -5,7 +5,11 @@
   <div class="grid-container">
     {{ range .Pages }}
     <div class="grid-item">
+      {{ if .Params.externallUrl }}
+      <a class="project-card" href="{{ .Params.externallUrl }}" target="_blank">
+      {{ else }}
       <a class="project-card" href="{{ .Permalink }}">
+      {{ end }}
         <img class="project-image" src="{{ .RelPermalink }}{{ with .Params.preview }}{{ . }}{{ else }}{{ .Params.previewFeatured }}{{ end }}" alt="{{ .Title }}">
         <h4 class="project-title">{{ .Title }}</h4>
         <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
