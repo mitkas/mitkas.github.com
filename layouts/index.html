@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="container">
-  <h1>{{ .Title }}</h1>
+  <h1 style="padding-bottom: 0px;">{{ .Title }}</h1>
+  <h1>{{ .Params.subtitle }}</h1>
 
   <div class="aboutlinks">
     <a class="button-cta" href="{{ .Params.profileUrl }}" target="_blank" rel="noopener noreferrer">Profile</a>

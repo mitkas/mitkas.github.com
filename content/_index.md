@@ -1,5 +1,6 @@
 ---
-title: "Dmytro Sylantiev product designer specializing in easy-to-use interfaces."
+title: "Dmytro Sylantiev"
+subtitle: "product designer specializing in easy-to-use interfaces."
 date: 2023-04-12T00:00:00Z
 cascade:
   experience:

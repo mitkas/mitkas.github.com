@@ -9,6 +9,14 @@ featured: true
 link: ""
 ---
 
-Project description and details go here. You can use standard Markdown syntax to format your content, add images, and create links.
+Food Ordering Marketplace for fast & easy pickup, discovery of local eats & coffee shops, and saving money with no high fees.
 
 ![Project image](preview_featured.jpg)
+
+![Map screen](2.jpg)
+
+![Web screen](3.jpg)
+
+A user-friendly interface terminal designed for restaurants to easily accept and manage incoming orders has been created.
+
+![Web screen](4.jpg)

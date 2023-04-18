@@ -10,49 +10,46 @@ As an interaction designer originally from Ukraine, I specialize in creating use
 
 {{< figure src="photo_dmytro.jpg" alt="Dmytro's Photo" class="profile-photo" >}}
 
-
-
 **Contacts**
-→ Mail
-→ Linkedin
-→ Behance
-→ Dribbble
+- → Mail
+- → Linkedin
+- → Behance
+- → Dribbble
 
 **Experience**
-Product Designer, Allset, 2017 — 2023
-Senior User Interface Designer, Onseo, 2016 — 2017
-Senior Visual Designer, Win Interactive, 2013 — 2016
-Senior Designer, Aimbulance, 2011 — 2013
-→ More
+- Product Designer, Allset, 2017 — 2023
+- Senior User Interface Designer, Onseo, 2016 — 2017
+- Senior Visual Designer, Win Interactive, 2013 — 2016
+- Senior Designer, Aimbulance, 2011 — 2013
 
 **Clients**
-Mastercard
-Viasat
-Pepsi
-Citroen
-Seat
-TUI
-Megogo
-Watsons
-LG Electronics
-Bwin
-iBox
-Kozel
-Kinder
-McDonalds
-Jacobs
-Nokia
+- Mastercard
+- Viasat
+- Pepsi
+- Citroen
+- Seat
+- TUI
+- Megogo
+- Watsons
+- LG Electronics
+- Bwin
+- iBox
+- Kozel
+- Kinder
+- McDonalds
+- Jacobs
+- Nokia
 
 **Awards**
-Effie Awards 2012
-Effie Awards 2011
-Awwwards Honorable Mention
-Propeller Gold
-Kiaf Short List
-KIAF Bronze
-Ukrainian Design The Very Best Of
-Red Apple Silver
-Featured Adweek
-Featured AIGA
-App Design Served
-Web Design Served
+- Effie Awards 2012
+- Effie Awards 2011
+- Awwwards Honorable Mention
+- Propeller Gold
+- Kiaf Short List
+- KIAF Bronze
+- Ukrainian Design The Very Best Of
+- Red Apple Silver
+- Featured Adweek
+- Featured AIGA
+- App Design Served
+- Web Design Served

@@ -9,8 +9,6 @@ featured: false
 link: http://www.behance.net/gallery/Mabila/6412827
 ---
 
-{{ $preview := $preview.Fill "600x400" }}
-
 Mabila - web-site about gadgets.
 
 ![Logo](1.jpg)

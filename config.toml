@@ -1,9 +1,11 @@
 baseURL = "https://sylantiev.com/"
 languageCode = "en-us"
-title = "Dmytro Sylantiev"
+title = "Sylantiev"
 
 [params]
   font = "Inter"
+  author = "Dmytro Sylantiev"
+  description = "Dmytro Sylantiev"
 
 [markup]
   # defaultMarkdownHandler = "goldmark"
