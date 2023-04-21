@@ -8,8 +8,11 @@ previewFeatured: "preview_featured.jpg"
 featured: true
 link: ""
 ---
+<div class="description">
 
 Food Ordering Marketplace for fast & easy pickup, discovery of local eats & coffee shops, and saving money with no high fees.
+
+</div>
 
 ![Project image](preview_featured.jpg)
 

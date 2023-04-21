@@ -8,23 +8,26 @@ previewFeatured: ""
 featured: false
 link: http://www.behance.net/gallery/iBox/7054275
 ---
+<div class="description">
+
 New interface terminals IBox.
-
-![Image description](1.png) 
-![Image description](2.png)
-
 Terminal iBox can be funded mobile phones, recharge
 purses WebMoney, repay loans and make bank transactions.
 
-![Image description](3.png)
-![Image description](4.png)
-![Image description](5.png)
-![Image description](6.png)
+</div>
+
+
+![Image description](1.jpg) 
+![Image description](2.jpg)
+![Image description](3.jpg)
+![Image description](4.jpg)
+![Image description](5.jpg)
+![Image description](6.jpg)
 
 Icon sets
 
-![Icon sets](7.png)
+![Icon sets](7.jpg)
 
 Keyboard
 
-![Keyboard](8.png)
+![Keyboard](8.jpg)

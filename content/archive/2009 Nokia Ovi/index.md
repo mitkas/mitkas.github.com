@@ -3,12 +3,10 @@ title: "Nokia Ovi"
 date: 2009-09-01
 type: "Web"
 text: ""
-preview: "preview.png"
+preview: "preview.jpg"
 previewFeatured: ""
 featured: false
 link: ""
 ---
-
-![](1.png)
-
+![](1.jpg)
 ![](2.jpg)

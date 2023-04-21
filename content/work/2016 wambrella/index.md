@@ -8,8 +8,13 @@ previewFeatured: ""
 featured: true
 link: ""
 ---
+<div class="description">
 
-Project description and details go here. You can use standard Markdown syntax to format your content, add images, and create links.
+Wambrella is a platform that allows users to manage their weather experience by defining their personal comfort level based on current weather conditions.
 
-![Project image](/images/project-image.jpg)
+</div>
+
+![](1.jpg)
+![](2.jpg)
+![](3.jpg)
 

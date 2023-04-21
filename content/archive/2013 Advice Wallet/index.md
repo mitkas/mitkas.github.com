@@ -3,50 +3,28 @@ title: "Advice Wallet"
 date: 2013-05-21
 type: "Web"
 text: "Advice Wallet - social networking platform for referral marketing."
-preview: "preview.png"
+preview: "preview.jpg"
 previewFeatured: ""
 featured: false
 link: http://www.behance.net/gallery/Advice-Wallet/8761763
 ---
-
-![Image description](1.png)
+<div class="description">
 
 Advice Wallet - social networking platform for referral marketing.
 
-![Image description](2.png)
+</div>
 
-Logo & ID
+![](1.jpg)
 
-![Image description](3.png)
+![](2.jpg)
 
-![Image description](4.png)
+![](3.jpg)
 
-![Image description](5.png)
+![](4.jpg)
 
-![Image description](6.png)
+![](5.jpg)
 
-Start page
+![](6.jpg)
 
-![Image description](7.png)
+![](7.jpg)
 
-![Image description](8.png)
-
-![Image description](9.png)
-
-Inner pages
-
-![Image description](10.png)
-
-![Image description](11.png)
-
-![Image description](12.png)
-
-![Image description](13.png)
-
-![Image description](14.png)
-
-![Image description](15.png)
-
-Popups and other elements
-
-![Image description](16.png)

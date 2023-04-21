@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+
+  <div class="content">
+    {{ .Content }}
+
+    <br/>
+    
+    <div class="secondinfo">
+      <div>
+        <h3>Experience</h3>
+        <ul>
+          {{ range .Params.experience }}
+          <li>{{ .title }}</li>
+          {{ end }}
+          <br />
+          <li>&rarr; <a href="{{ .Params.linkedinUrl }}" target="_blank" rel="noopener noreferrer">More</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacts</h3>
+        <ul>
+          {{ range .Params.contacts }}
+          <li>&rarr; <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="secondinfo">
+        <div>
+          <h3>Clients</h3>
+          <ul>
+            {{ range .Params.clients }}
+            <li>{{ .title }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        <div>
+          <h3>Awards</h3>
+          <ul>
+            {{ range .Params.awards }}
+            <li>{{ .title }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+{{ end }}

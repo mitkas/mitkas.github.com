@@ -2,11 +2,31 @@
 <div class="container">
     <!-- <article> -->
         <h1>{{ .Title }}</h1>
-
+        <div class="project-details single">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+        <!-- <div class="description">{{ .Description }}</div> -->
+        
         <div class="content">
             {{ .Content }}
         </div>
         
     <!-- </article> -->
+    <div class="footerNavigation">
+        {{ with .Parent }}
+        <div><a class="index" href="{{ .Permalink }}">↑ Index</a></div>
+        {{ end }}
+        {{ with .PrevInSection }}
+        <div><a class="previous" href="{{ .Permalink }}">
+            <div>Next &rarr;</div> 
+            <div>{{ .Title }}</div>
+        </a></div>
+        {{ end }}
+        <!-- {{ with .NextInSection }}
+          <a class="next" href="{{ .Permalink }}">Next {{ .Title }}</a>
+        {{ end }} -->
+      </div>
+
 </div>
+
+
+
 {{ end }}

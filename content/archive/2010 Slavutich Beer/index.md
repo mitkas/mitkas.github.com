@@ -8,19 +8,14 @@ previewFeatured: ""
 featured: false
 link: ""
 ---
+<div class="description">
 
-![](1-1.png)
-![](1-2.jpg)
+Promo site for Slavutich beer.
 
-![](2-1.jpg)
-![](2-2.jpg)
-![](2-3.jpg)
-![](2-4.jpg)
-![](2-5.jpg)
-![](2-6.jpg)
-![](2-7.jpg)
-![](2-8.jpg)
-![](2-9.jpg)
-![](2-10.jpg)
+</div>
 
+![](1.jpg)
+![](2.jpg)
 ![](3.jpg)
+![](4.jpg)
+![](5.jpg)

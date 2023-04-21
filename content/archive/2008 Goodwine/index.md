@@ -1,9 +1,9 @@
 ---
-title: "Muzon"
+title: "Goodwine"
 date: 2008-01-01
 type: "Web"
 text: ""
-preview: "1.jpg"
+preview: "preview.jpg"
 previewFeatured: ""
 featured: false
 link: ""

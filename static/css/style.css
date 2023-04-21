@@ -8,15 +8,10 @@
   --global-padding-1-5: 1.5rem;
   --global-padding-2: 2rem;
   --global-padding-3: 3rem;
-  /* --global-font-size-small: 14px;
-  --global-font-size-medium: 17px;
-  --global-font-size-medium: 18px;
-  --global-font-size-medium: 20px;
-  --global-font-size-large: 48px;
-  --global-font-size-xl: 64px;
-  --global-font-size-xxl: 88px; */
+
   --global-font-size-small: 0.875rem;
   --global-font-size-medium: 1.25rem;
+  --global-font-size-medium-2: 2rem;
   --global-font-size-large: 3rem;
   --global-font-size-xl: 4rem;
   --global-font-size-xxl: 5.5rem;
@@ -33,6 +28,7 @@ body {
   font-family: -apple-system, "Inter", sans-serif;
   font-size: var(--global-font-size-medium);
   line-height: 1.5;
+  letter-spacing: -0.02em;
   color: #000000;
   margin: 0;
   padding: 0;
@@ -45,7 +41,10 @@ a {
 }
 
 a:hover {
+  /* text-decoration: underline; */
   text-decoration: underline;
+  text-decoration-color: #00000040;
+
 }
 
 header {
@@ -88,8 +87,8 @@ main {
 
 .profile-photo img {
   border-radius: 50%;
-  max-width: 510px;
-  max-height: 510px;
+  max-width: 300px;
+  max-height: 300px;
   width: 100%;
   height: auto;
 }
@@ -171,7 +170,7 @@ p {
   font-size: var(--global-font-size-medium);
   line-height: 140%;
   letter-spacing: -0.02em;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   padding-bottom: 1rem;
 }
 
@@ -182,7 +181,7 @@ p {
 } */
 
 div > p > img {
-  height: 400px;
+  /* height: 400px; */
   align-items: center;
 }
 
@@ -273,7 +272,7 @@ div > p > img {
 }
 
 .project-title {
-  margin: 16px 0 8px 16px;
+  margin: 8px 0 8px 8px;
   font-style: normal;
   font-weight: 600;
   font-size: var(--global-font-size-medium);
@@ -282,11 +281,16 @@ div > p > img {
 }
 
 .project-details {
-  margin: 0 16px 16px;
+  margin: 0 8px 8px;
   font-weight: 400;
   font-size: var(--global-font-size-small);
   line-height: 100%;
   color: rgba(0, 0, 0, 0.3);
+} 
+
+.single {
+  margin: -16px 0 32px;
+  font-size: var(--global-font-size-medium);
 } 
 
 a.project-details:hover {
@@ -297,6 +301,22 @@ a.project-details:hover {
   padding-bottom: 100px;
 }
 
+.footerNavigation {
+  font-size: var(--global-font-size-medium-2);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--global-padding-3);
+  line-height: 100%;
+}
+
+.footerNavigation :hover {
+  text-decoration: none;
+}
+
+.footerNavigation > div {
+  flex: 1;
+}
 
 @media (max-width: 576px) {
 

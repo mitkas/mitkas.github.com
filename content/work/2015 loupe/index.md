@@ -5,11 +5,18 @@ type: "App"
 text: ""
 preview: "preview.jpg"
 previewFeatured: ""
-featured: false
+featured: true
 link: ""
 ---
+<div class="description">
 
-Project description and details go here. You can use standard Markdown syntax to format your content, add images, and create links.
+Loupe is an app that allows users to easily search for and book appointments with local beauticians. Users can browse through a directory of beauticians, view their profiles and ratings, and make a booking at their convenience. 
 
-![Project image](/images/project-image.jpg)
+The app also allows users to filter their search by location, services offered, and availability, making it easy to find the perfect beautician for their needs. Additionally, users can receive reminders for upcoming appointments and can cancel or reschedule if needed.
+
+</div>
+
+![](1.jpg)
+![](2.jpg)
+![](3.jpg)
 
