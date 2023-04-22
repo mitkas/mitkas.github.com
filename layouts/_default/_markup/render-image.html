@@ -4,4 +4,14 @@
 {{/* Resize and compress the image */}}
 {{ $webp := $image.Resize "2000x webp" }}
 
-<img src="{{ $webp.RelPermalink }}" alt="{{ .Text }}"/>
+<!-- <img src="{{ $webp.RelPermalink }}" alt="{{ .Text }}"/> -->
+<img 
+src="{{ $webp.RelPermalink }}" 
+alt="{{ .Text }}" 
+{{ with $webp.Width }}
+width="{{ . }}"
+{{ end }} 
+{{ with $webp.Height }}
+height="{{ . }}"
+{{ end }} 
+/>

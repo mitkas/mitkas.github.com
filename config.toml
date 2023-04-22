@@ -5,7 +5,7 @@ title = "Sylantiev"
 [params]
   font = "Inter"
   author = "Dmytro Sylantiev"
-  description = "Dmytro Sylantiev"
+  description = "Dmytro Sylantiev Portfolio"
 
 [markup]
   # defaultMarkdownHandler = "goldmark"
