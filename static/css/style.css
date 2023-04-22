@@ -1,7 +1,7 @@
 @import url("https://rsms.me/inter/inter.css");
 
 :root {
-  --border-radius-medium: 20px;
+  --border-radius-medium: 10px;
   --border-radius-large: 20px;
   --global-padding: 80px;
   --global-padding-1: 1rem;
@@ -9,8 +9,9 @@
   --global-padding-2: 2rem;
   --global-padding-3: 3rem;
 
-  --global-font-size-small: 0.875rem;
+  --global-font-size-small: 1rem;
   --global-font-size-medium: 1.25rem;
+  --global-font-size-medium-15: 1.5rem;
   --global-font-size-medium-2: 2rem;
   --global-font-size-large: 3rem;
   --global-font-size-xl: 4rem;
@@ -132,7 +133,7 @@ h3 {
 .description {
   width: 600px;
   font-weight: 400;
-  font-size: var(--global-font-size-medium);
+  font-size: var(--global-font-size-mdeium);
   line-height: 140%;
   letter-spacing: -0.02em;
   color: #000000;
@@ -174,11 +175,6 @@ p {
   padding-bottom: 1rem;
 }
 
-/* div > p {
-  background-color: #E3E3E3;
-  border-radius: 20px;
-  padding: 20px;
-} */
 
 div > p > img {
   /* height: 400px; */
@@ -261,7 +257,7 @@ div > p > img {
 
 .project-card {
   padding: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .project-image {
@@ -275,7 +271,7 @@ div > p > img {
   margin: 8px 0 8px 8px;
   font-style: normal;
   font-weight: 600;
-  font-size: var(--global-font-size-medium);
+  font-size: var(--global-font-size-medium-15);
   line-height: 100%;
   color: #000000;
 }
@@ -283,7 +279,7 @@ div > p > img {
 .project-details {
   margin: 0 8px 8px;
   font-weight: 400;
-  font-size: var(--global-font-size-small);
+  font-size: var(--global-font-size-medium);
   line-height: 100%;
   color: rgba(0, 0, 0, 0.3);
 } 
@@ -340,7 +336,7 @@ a.project-details:hover {
 
   .project-details {
     margin: 0 8px 8px;
-    font-size: var(--global-font-size-small);
+    font-size: var(--global-font-size-medium);
   }
 
   .secondinfo {
@@ -369,11 +365,12 @@ a.project-details:hover {
   
   .project-card {
     padding: 0.25rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
 
   .description {
     width: 100%;
+    font-size: var(--global-font-size-medium);
   }
 
 }
@@ -386,7 +383,7 @@ a.project-details:hover {
   
   .project-card {
     padding: 0.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   h1 {
