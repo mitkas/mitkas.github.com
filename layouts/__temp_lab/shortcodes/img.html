@@ -1,0 +1,7 @@
+{{/* Get the image from the page resources */}}
+{{ $image := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+
+{{/* Resize and compress the image */}}
+{{ $resized := $image.Resize "2560x webp" }}
+
+<img src="{{ $resized.RelPermalink }}" alt="{{ .Get 1 }}" />

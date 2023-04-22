@@ -4,9 +4,9 @@
 
     <div class="grid-item">
         <a class="project-card featured" href="{{ .Permalink }}">
-            <img class="project-image"
-                src="{{ .RelPermalink }}{{ with .Params.preview }}{{ . }}{{ else }}{{ .Params.previewFeatured }}{{ end }}"
-                alt="{{ .Title }}" />
+
+            {{ partial "img_list_compress.html" . }}
+
             <h4 class="project-title">{{ .Title }}</h4>
             <div class="project-details">
                 {{ .Params.type }}, {{ .Date.Format "2006" }}

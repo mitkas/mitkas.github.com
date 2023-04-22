@@ -21,4 +21,10 @@ title = "Sylantiev"
   work = "/work/:slug/"
   lab = "/lab/:slug/"
 
+# [imaging]
+#   anchor = 'Smart'
+#   bgColor = '#ffffff'
+#   hint = 'photo'
+#   quality = 75
+#   resampleFilter = 'Box'
 
