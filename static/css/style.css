@@ -331,6 +331,19 @@ a.project-details:hover {
   flex: 1;
 }
 
+/* Archive */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px;
+}
+.year-header {
+  grid-column: 1;
+  font-size: 6rem;
+  font-weight: 700;
+}
+
 @media (max-width: 576px) {
 
   .button-cta {
@@ -391,6 +404,16 @@ a.project-details:hover {
     font-size: var(--global-font-size-medium);
   }
 
+  .year-header {
+    font-size: 5rem;
+  }
+
+  .grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
 }
 
 @media (min-width: 577px) and (max-width: 1239px) {
@@ -418,18 +441,8 @@ a.project-details:hover {
     font-size: var(--global-font-size-medium);
     padding-bottom: 80px;
   }
-}
 
-
-/* Archive */
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 0px;
-}
-.year-header {
-  grid-column: 1;
-  font-size: 6rem;
-  font-weight: 700;
+  .year-header {
+    font-size: 2.5rem;
+  }
 }
