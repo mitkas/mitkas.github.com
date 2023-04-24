@@ -1,8 +1,29 @@
 {{ define "main" }}
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  .year-header {
+    grid-column: 1;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+</style>
 <div class="container">
   <h1>{{ .Title }}</h1>
   <div class="description">{{ .Description }}</div>
-  <div class="grid-container">
+
+  {{ $groupedPages := .Pages.GroupByDate "2006" "desc" }}
+
+  {{ range $groupedPages }}
+  <div class="grid">
+    <div class="year-header">
+      {{ .Key }}
+    </div>
+
+    {{ $counter := 1 }}
     {{ range .Pages }}
     <div class="grid-item">
       {{ if .Params.externallUrl }}
@@ -13,11 +34,19 @@
 
       {{ partial "img_list_compress.html" . }}
 
-        <h4 class="project-title">{{ .Title }}</h4>
-        <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+      <h4 class="project-title">{{ .Title }}</h4>
+      <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
       </a>
     </div>
+    {{ $counter = add $counter 1 }}
+    {{ if eq $counter 5 }}
+      {{ $counter = 1 }}
+      {{ range last (sub 1 (len .Pages)) (slice .Pages (len .Pages)) }}
+      <div class="grid-item" style="border: none;"></div>
+      {{ end }}
     {{ end }}
-  </div>  
+    {{ end }}
+  </div>
+  {{ end }}
 </div>
 {{ end }}

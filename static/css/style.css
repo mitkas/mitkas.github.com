@@ -50,6 +50,13 @@ a:hover {
 
 header {
   padding: 20px 0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* background-color: #ffffff; */
 }
 
 nav {
@@ -84,6 +91,7 @@ nav ul li {
 
 main {
   padding: 40px 0;
+  padding-top: 120px;
 }
 
 .profile-photo img {
@@ -120,6 +128,7 @@ h1 {
   line-height: 100%;
   color: #000000;
   padding-bottom: var(--global-padding-2);
+  width: 70%;
 }
 
 h3 {
@@ -330,13 +339,13 @@ a.project-details:hover {
 
   .project-title {
     margin: 8px 0 8px 8px;
-    font-size: var(--global-font-size-medium);
+    font-size: var(--global-font-size-small);
     color: #000000;
   }
 
   .project-details {
     margin: 0 8px 8px;
-    font-size: var(--global-font-size-medium);
+    font-size: var(--global-font-size-small);
   }
 
   .secondinfo {
@@ -353,6 +362,7 @@ a.project-details:hover {
 
   h1 {
     font-size: var(--global-font-size-large);
+    width: 100%;
   }
 
   .container {
@@ -388,6 +398,7 @@ a.project-details:hover {
 
   h1 {
     font-size: var(--global-font-size-xl);
+      width: 100%;
   }
 
   .container {

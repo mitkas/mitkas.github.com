@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  <div class="description">{{ .Description }}</div>
+  <div class="grid-container">
+    {{ range .Pages }}
+    <div class="grid-item">
+      {{ if .Params.externallUrl }}
+      <a class="project-card" href="{{ .Params.externallUrl }}" target="_blank">
+      {{ else }}
+      <a class="project-card" href="{{ .Permalink }}">
+      {{ end }}
+
+      {{ partial "img_list_compress.html" . }}
+
+        <h4 class="project-title">{{ .Title }}</h4>
+        <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+      </a>
+    </div>
+    {{ end }}
+  </div>  
+</div>
+{{ end }}
