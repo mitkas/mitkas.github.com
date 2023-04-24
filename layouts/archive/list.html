@@ -1,15 +1,6 @@
 {{ define "main" }}
 <style>
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-  }
-  .year-header {
-    grid-column: 1;
-    font-size: 3rem;
-    font-weight: 700;
-  }
+
 </style>
 <div class="container">
   <h1>{{ .Title }}</h1>
@@ -34,8 +25,8 @@
 
       {{ partial "img_list_compress.html" . }}
 
-      <h4 class="project-title">{{ .Title }}</h4>
-      <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+      <h4 class="project-title archive-project-title">{{ .Title }}</h4>
+      <div class="project-details archive-project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
       </a>
     </div>
     {{ $counter = add $counter 1 }}

@@ -96,8 +96,8 @@ main {
 
 .profile-photo img {
   border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 240px;
+  max-height: 240px;
   width: 100%;
   height: auto;
 }
@@ -293,6 +293,14 @@ div > p > img {
   color: rgba(0, 0, 0, 0.3);
 } 
 
+.archive-project-title {
+  font-size: var(--global-font-size-medium);
+}
+
+.archive-project-details {
+  font-size: var(--global-font-size-small);
+}
+
 .single {
   margin: -16px 0 32px;
   font-size: var(--global-font-size-medium);
@@ -412,3 +420,16 @@ a.project-details:hover {
   }
 }
 
+
+/* Archive */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px;
+}
+.year-header {
+  grid-column: 1;
+  font-size: 6rem;
+  font-weight: 700;
+}
