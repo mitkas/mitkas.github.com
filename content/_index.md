@@ -12,7 +12,7 @@ cascade:
     - name: Mail
       link: mailto:dimitriy@gmail.com
     - name: Linkedin
-      link: https://www.linkedin.com/in/silantiev/
+      link: https://www.linkedin.com/in/sylantiev/
     - name: Behance
       link: https://www.behance.net/mitka
     - name: Dribbble
