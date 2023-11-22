@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_loader</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M26,26.3996264 L52,0 L26,0 L26,26.3996264 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="main_loader" sketch:type="MSArtboardGroup" transform="translate(-674.000000, -769.000000)">
+            <g id="ico_loader" sketch:type="MSLayerGroup" transform="translate(674.000000, 769.000000)">
+                <path d="M52,26 C52,11.6405965 40.3594035,0 26,0 C11.6405965,0 0,11.6405965 0,26 C0,40.3594035 11.6405965,52 26,52 C40.3594035,52 52,40.3594035 52,26 Z M4.52173913,26 C4.52173913,14.1378841 14.1378841,4.52173913 26,4.52173913 C37.8621159,4.52173913 47.4782609,14.1378841 47.4782609,26 C47.4782609,37.8621159 37.8621159,47.4782609 26,47.4782609 C14.1378841,47.4782609 4.52173913,37.8621159 4.52173913,26 Z" id="Oval-17" opacity="0.2" fill="#B3B3B3" sketch:type="MSShapeGroup"></path>
+                <mask id="mask-2" sketch:name="Rectangle 51" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-51" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <path d="M52,26 C52,11.6405965 40.3594035,0 26,0 C11.6405965,0 0,11.6405965 0,26 C0,40.3594035 11.6405965,52 26,52 C40.3594035,52 52,40.3594035 52,26 Z M4.52173913,26 C4.52173913,14.1378841 14.1378841,4.52173913 26,4.52173913 C37.8621159,4.52173913 47.4782609,14.1378841 47.4782609,26 C47.4782609,37.8621159 37.8621159,47.4782609 26,47.4782609 C14.1378841,47.4782609 4.52173913,37.8621159 4.52173913,26 Z" id="Oval-18" fill="#17C3E4" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

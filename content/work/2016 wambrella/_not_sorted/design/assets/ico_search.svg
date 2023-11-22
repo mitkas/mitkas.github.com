@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="main" sketch:type="MSArtboardGroup" transform="translate(-1330.000000, -48.000000)" fill="#4D5658">
+            <g id="ico_search" sketch:type="MSLayerGroup" transform="translate(1330.000000, 48.000000)">
+                <path d="M24,12 C24,5.372583 18.627417,0 12,0 C5.372583,0 0,5.372583 0,12 C0,18.627417 5.372583,24 12,24 C18.627417,24 24,18.627417 24,12 Z M4,12 C4,7.581722 7.581722,4 12,4 C16.418278,4 20,7.581722 20,12 C20,16.418278 16.418278,20 12,20 C7.581722,20 4,16.418278 4,12 Z" id="Oval-7" sketch:type="MSShapeGroup"></path>
+                <path d="M25.4344776,27.2629047 L26.8486912,28.6771183 L29.6771183,25.8486912 L28.2629047,24.4344776 L22.9142136,19.0857864 L21.5,17.6715729 L18.6715729,20.5 L20.0857864,21.9142136 L25.4344776,27.2629047 Z" id="Line" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
