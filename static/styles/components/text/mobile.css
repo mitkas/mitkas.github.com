@@ -1,0 +1,46 @@
+@media (min-width: 577px) and (max-width: 1229px) {
+  h1 {
+    font-size: var(--global-font-size-xl);
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+    font-size: var(--global-font-size-medium);
+    padding-bottom: 80px;
+  }
+
+  .year-header {
+    font-size: 2.5rem;
+  }
+}
+
+@media (width < 576px) {
+  h1 {
+    font-size: var(--global-font-size-large);
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+    font-size: var(--global-font-size-medium);
+  }
+
+  .year-header {
+    font-size: 5rem;
+  }
+
+  .secondinfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondinfo > div {
+    flex: 1;
+    padding-bottom: var(--global-padding-3);
+  }
+
+  .aboutlinks {
+    padding-bottom: 40px;
+  }
+}

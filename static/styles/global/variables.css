@@ -1,0 +1,19 @@
+
+:root {
+    --border-radius-medium: 10px;
+    --border-radius-large: 20px;
+    --global-padding: 80px;
+    --global-padding-1: 1rem;
+    --global-padding-1-5: 1.5rem;
+    --global-padding-2: 2rem;
+    --global-padding-3: 3rem;
+  
+    --global-font-size-small: 1rem;
+    --global-font-size-medium: 1.25rem;
+    --global-font-size-medium-15: 1.5rem;
+    --global-font-size-medium-2: 2rem;
+    --global-font-size-large: 3rem;
+    --global-font-size-xl: 4rem;
+    --global-font-size-xxl: 5.5rem;
+  
+  }

@@ -1,0 +1,41 @@
+.project-card {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-large);
+  object-fit: cover;
+}
+
+.project-title {
+  margin: 8px 0 8px 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--global-font-size-medium-15);
+  line-height: 100%;
+  color: #000000;
+}
+
+.project-details {
+  margin: 0 8px 8px;
+  font-weight: 400;
+  font-size: var(--global-font-size-medium);
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.archive-project-title {
+  font-size: var(--global-font-size-medium);
+}
+
+.archive-project-details {
+  font-size: var(--global-font-size-small);
+}
+
+.single {
+  margin: -16px 0 32px;
+  font-size: var(--global-font-size-medium);
+}

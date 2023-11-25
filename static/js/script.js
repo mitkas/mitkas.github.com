@@ -86,7 +86,7 @@
 FlexMasonry.init(".grid-container", {
   responsive: true,
   breakpointCols: {
-    "min-width: 1440px": 4,
+    "min-width: 1440px": 5,
     "min-width: 1240px": 4,
     "min-width: 577px": 3,
     "min-width: 200px": 2,

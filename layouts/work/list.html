@@ -9,8 +9,8 @@
 
         {{ partial "img_list_compress.html" . }}
 
-        <h4 class="project-title">{{ .Title }}</h4>
-        <div class="project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
+        <h4 class="project-title archive-project-title">{{ .Title }}</h4>
+        <div class="project-details archive-project-details">{{ .Params.type }}, {{ .Date.Format "2006" }}</div>
       </a>
     </div>
     {{ end }}
