@@ -142,7 +142,7 @@ h3 {
 .description {
   width: 600px;
   font-weight: 400;
-  font-size: var(--global-font-size-mdeium);
+  font-size: var(--global-font-size-medium);
   line-height: 140%;
   letter-spacing: -0.02em;
   color: #000000;
@@ -315,7 +315,7 @@ a.project-details:hover {
 }
 
 .footerNavigation {
-  font-size: var(--global-font-size-medium-2);
+  font-size: var(--global-font-size-medium);
   font-weight: 400;
   display: flex;
   justify-content: space-between;
@@ -438,7 +438,8 @@ a.project-details:hover {
 
   .description {
     width: 100%;
-    font-size: var(--global-font-size-medium);
+    /* font-size: var(--global-font-size-medium); */
+    font-size: var(--global-font-size-small);
     padding-bottom: 80px;
   }
 

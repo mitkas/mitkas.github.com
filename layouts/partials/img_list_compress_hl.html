@@ -1,0 +1,12 @@
+{{/* Get the image from the page resources or use the default featured image */}}
+{{ $image := .Resources.GetMatch (printf "*%s*" (.Params.previewFeatured | default .Params.preview)) }}
+{{/* Resize and compress the image */}}
+<!-- {{ $webp := $image.Resize "1000x webp" }} -->
+
+<!-- <img class="project-image" src="{{ $webp.RelPermalink }}" alt="{{ .Title }}"  /> -->
+
+<img 
+class="project-image"
+src="{{ $image.RelPermalink }}" 
+alt="{{ .Title }}" 
+/>

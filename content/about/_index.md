@@ -34,9 +34,9 @@ cascade:
     - title: Web Design Served
 ---
 <div class="description">
-
 As an interaction designer originally from Ukraine, I specialize in creating user-centered designs with clean and sharp interfaces for easy navigation. With over 20 years of experience in the field, I have a wealth of knowledge and expertise to bring to any project. My goal is to combine stunning graphics with exceptional user experience for successful designs and applications. I am passionate about creating intuitive digital experiences that improve people's lives.
-
+<div class="description-profile-photo">
 {{< figure src="photo_dmytro.jpg" alt="Dmytro's Photo" class="profile-photo" >}}
 </div>
-<div>
+</div>
+

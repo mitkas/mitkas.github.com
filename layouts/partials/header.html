@@ -3,9 +3,10 @@
       <nav>
         <a href="/" class="logo">{{ .Site.Title }}</a>
         <ul>
+          <li><a href="/" class="{{ if eq .RelPermalink "/" }}selected{{ end }}">Home</a></li>
           <li><a href="/work" class="{{ if eq .RelPermalink "/work/" }}selected{{ end }}">Work</a></li>
           <li><a href="/archive" class="{{ if eq .RelPermalink "/archive/" }}selected{{ end }}">Archive</a></li>
-          <li><a href="/lab" class="{{ if eq .RelPermalink "/lab/" }}selected{{ end }}">Lab</a></li>
+          <!-- <li><a href="/lab" class="{{ if eq .RelPermalink "/lab/" }}selected{{ end }}">Lab</a></li> -->
           <li><a href="/about" class="{{ if eq .RelPermalink "/about/" }}selected{{ end }}">About</a></li>
         </ul>        
       </nav>

@@ -24,18 +24,31 @@
   .description {
     width: 100%;
     font-size: var(--global-font-size-medium);
+    padding-bottom: 40px;
   }
 
   .year-header {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .secondinfo {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .secondinfo > div {
+    flex: 1;
+    padding-bottom: var(--global-padding-3);
+  }
+
+  .secondinfo-about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  
+  .secondinfo-about > div {
     flex: 1;
     padding-bottom: var(--global-padding-3);
   }

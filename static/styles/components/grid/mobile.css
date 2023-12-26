@@ -3,6 +3,14 @@
     margin: -0.5rem;
     /* margin-bottom: 1rem; */
   }
+
+  .highlight-item {
+    margin: -0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0rem;
+  }
 }
 
 @media (width < 576px) {
@@ -11,5 +19,13 @@
   }
   .grid-item {
     margin: -0.25rem;
+  }
+
+  .highlight-item {
+    margin: -0.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0rem;
   }
 }

@@ -5,7 +5,8 @@ type: "Web, App, Table"
 text: ""
 preview: "preview.jpg"
 previewFeatured: "preview_featured.jpg"
-featured: true
+# featured: true
+highlight: true
 link: ""
 ---
 <div class="description">

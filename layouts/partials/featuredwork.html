@@ -1,3 +1,21 @@
+<div class="highlight-container">
+    {{ $featuredProjects := where site.Pages "Params.highlight" true }} {{ range
+    $featuredProjects }}
+
+    <div class="highlight-item">
+        <a class="project-card featured" href="{{ .Permalink }}">
+
+            {{ partial "img_list_compress_hl.html" . }}
+
+            <h4 class="project-title archive-project-title">{{ .Title }}</h4>
+            <div class="project-details archive-project-details">
+                {{ .Params.type }}, {{ .Date.Format "2006" }}
+            </div>
+        </a>
+    </div>
+
+    {{ end }}
+</div>
 <div class="grid-container">
     {{ $featuredProjects := where site.Pages "Params.featured" true }} {{ range
     $featuredProjects }}

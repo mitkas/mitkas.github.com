@@ -17,6 +17,7 @@ title = "Sylantiev"
 
 # theme = 'ananke'
 [permalinks]
+  home = "/"
   archive = "/archive/:slug/"
   work = "/work/:slug/"
   lab = "/lab/:slug/"
