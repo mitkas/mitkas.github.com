@@ -1,0 +1,16 @@
+@media (min-width: 577px) and (max-width: 1229px) {
+    .footer {
+        margin: 0 auto;
+        padding: 0 10px 50px 10px;
+        /* padding-bottom: 100px; */
+      }
+  }
+  
+  @media (width < 576px) {
+    .footer {
+        margin: 0 auto;
+        padding: 0 10px 50px 10px;
+        /* padding-bottom: 100px; */
+      }
+  }
+  

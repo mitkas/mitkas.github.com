@@ -1,0 +1,16 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  max-width: 240px;
+  max-height: 240px;
+  width: 100%;
+  height: auto;
+}
+
+.description-profile-photo {
+  padding-top: 40px;
+}

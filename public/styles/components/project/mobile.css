@@ -1,0 +1,28 @@
+@media (min-width: 577px) and (max-width: 1229px) {
+  .project-card {
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (width < 576px) {
+  .project-card {
+    padding: 0.25rem;
+    padding-bottom: 1.5rem;
+  }
+  .project-title {
+    margin: 8px 0 8px 8px;
+    font-size: var(--global-font-size-small);
+    color: #000000;
+  }
+
+  .project-details {
+    margin: 0 8px 8px;
+    font-size: var(--global-font-size-small);
+  }
+
+  .single {
+    margin: -60px 0 40px;
+    font-size: var(--global-font-size-medium);
+  }
+}

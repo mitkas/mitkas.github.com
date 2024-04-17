@@ -1,0 +1,22 @@
+.footer {
+  margin: 0 auto;
+  padding: 0 80px 100px 80px;
+  /* padding-bottom: 100px; */
+}
+
+.footerNavigation {
+  font-size: var(--global-font-size-medium);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--global-padding-3);
+  line-height: 100%;
+}
+
+.footerNavigation :hover {
+  text-decoration: none;
+}
+
+.footerNavigation > div {
+  flex: 1;
+}

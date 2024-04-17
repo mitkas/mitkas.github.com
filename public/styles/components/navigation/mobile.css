@@ -1,0 +1,8 @@
+@media (min-width: 577px) and (max-width: 1229px) {
+}
+
+@media (width < 576px) {
+  nav {
+    overflow: hidden;
+  }
+}
