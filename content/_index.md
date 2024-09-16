@@ -17,7 +17,7 @@ cascade:
       link: https://www.behance.net/mitka
     - name: Dribbble
       link: https://dribbble.com/mitkazavr
-profileUrl: https://www.dropbox.com/scl/fi/twncjtvum7bqppvv37wk7/Dmytro-Sylantiev-Profile-2023.pdf?rlkey=cz580qv7dhewgpp89a026w183&st=3s8y9hvg&dl=0
+profileUrl: /docs/Dmytro%20Sylantiev%20Profile%202023.pdf
 linkedinUrl: https://www.linkedin.com/in/sylantiev/
 cvUrl: /docs/Dmytro%20Sylantiev%20CV%202023%20-%204D.pdf
 ---
